@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
